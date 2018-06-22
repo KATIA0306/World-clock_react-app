@@ -1,0 +1,115 @@
+body {
+  margin: 10px;
+  padding: 10px;
+  justify-content: flex-end;
+  font-family: sans-serif;
+  background-image: url('bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.myClock-Toronto {
+  background: rgb(243, 240, 240);
+  border-radius: 50%;
+  border: 7px solid rgb(165, 157, 157);
+  margin: 5px;
+  width: 180px;
+}
+
+.myClock-Moscow {
+  background: rgb(147, 229, 240);
+  border-radius: 50%;
+  border: 7px solid rgb(110, 107, 107);
+  margin: 5px;
+  width: 180px;
+}
+
+.myClock-Tokyo {
+  background: rgb(151, 147, 147);
+  border-radius: 50%;
+  border: 7px solid rgb(69, 138, 202);
+  margin: 5px;
+  width: 180px;
+}
+
+.myClock-New-York {
+  background:  rgba(147, 250, 134, 0.8);
+  border-radius: 50%;
+  border: 7px solid white;
+  margin: 5px;
+  width: 180px;
+}
+
+.myClock-Paris {
+  background:rgba(157, 161, 218, 0.9);
+  border-radius: 50%;
+  border: 7px solid rgb(29, 109, 33);
+  margin: 5px;
+  width: 180px;
+}
+
+.myClock-Bangkok {
+  background: rgba(36, 49, 238, 0.7);
+  border-radius: 50%;
+  border: 7px solid rgb(121, 118, 118);
+  margin: 5px;
+  width: 180px;
+}
+
+.myClockPage {
+  border: 7px solid rgb(88, 86, 86);
+  background: rgba(227, 228, 233, 0.7);
+  border-radius: 50%;
+}
+
+#changeSize {
+  width: 180px;
+}
+
+.cityName {
+text-align: start;
+font-size: 20px;
+font-family: 'Titillium Web', sans-serif;
+color: #02364b;
+font-weight: 400;
+padding-left: 50px;
+}
+
+#myRow {
+  padding-left: 30px;
+  padding-top: 40px;  
+}
+
+#clockPage {
+  padding-left: 50px;
+  padding-top: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#heading {
+   padding-top: 20px;
+   padding-left: 200px;
+   color: #050670;
+   font-family: 'Titillium Web', sans-serif;
+   font-weight: 500;
+ }
+
+ #weatherText {
+  margin-top: 20px;
+  width: 180px; 
+ }
+
+ .weather {
+  color: #050670;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.degree {
+  color: #0a0a0a;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 1000;
+  font-size: 22px;
+}
